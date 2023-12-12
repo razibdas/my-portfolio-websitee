@@ -1,7 +1,7 @@
 
 const Experience = () => {
     return (
-        <div className="">
+        <div id="experience" className="">
             <h2 className="text-center text-white text-4xl mt-24">Experiences</h2>
             <div className="lg:flex mt-16 items-center justify-center gap-16">
                 <div>

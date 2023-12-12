@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
 
+import {Link} from "react-scroll"
 const Navbar = () => {
 
     const navLinks = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/">Skills</Link></li>
-        <li><Link to="/">Projects</Link></li>
-        <li><Link to="/">Contacts</Link></li>
+        <li><Link to="/" spy={true} smooth={true} offset={-50} duration={500} >Home</Link></li>
+        <li><Link to="skills" spy={true} smooth={true} offset={-100} duration={500} >Skills</Link></li>
+        <li><Link to="projects" spy={true} smooth={true} offset={-100} duration={500} >Projects</Link></li>
+        <li><Link to="contacts" spy={true} smooth={true} offset={-100} duration={500} >Contacts</Link></li>
+        <li><Link to="education" spy={true} smooth={true} offset={-100} duration={500} >Education</Link></li>
+        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} >Experience</Link></li>
 
     </>
 
@@ -40,8 +42,8 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end"id='contacts' >
+                    <a className="btn" >Contacts</a>
                 </div>
             </div>
         </>

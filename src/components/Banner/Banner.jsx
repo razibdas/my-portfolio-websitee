@@ -29,8 +29,8 @@ const Banner = () => {
                 </div>
 
                 <div className='flex gap-8 mt-6 items-center'>
-                    <Link to="">
-                        <button className="btn btn-outline btn-secondary button neon-button">Contact</button>
+                    <Link to="" id='contacts' >
+                        <button className="btn btn-outline btn-secondary button neon-button" id='contacts' >Contact</button>
                     </Link>
                     <Link to="">
                         <button className=" px-3 py-2 rounded-lg btn-secondary button text-black">RESUME</button>

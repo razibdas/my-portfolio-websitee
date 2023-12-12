@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Skill = () => {
     return (
-        <div>
+        <div id='skills'>
             <div className='lg:flex justify-evenly mt-44 lg:gap-56'>
                 <div className='mt-12'>
                     <h2 className='text-white text-4xl animate__animated animate__fadeIn text-center'>My Skills</h2>
