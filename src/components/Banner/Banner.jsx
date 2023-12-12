@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './button.css'
 import './style.css'
 import { FaFacebookF, FaTwitter,  FaInstagramSquare  } from "react-icons/fa";
+import img from '../../assets/razib.jpg'
 
 const Banner = () => {
 
@@ -45,7 +46,7 @@ const Banner = () => {
             <div className='mr-8 mt-6 ml-6'>
                 <img
                     className="w-full max-w-[400px] md:max-w-[400px] h-[450px] "
-                    src="https://i.ibb.co/1MPZKG1/neom-s0-A8sa9oas-Y-unsplash.jpg"
+                    src={img}
                     alt="profile"
                     style={{ borderRadius: '200px 200px 0 0' }}
                 />
