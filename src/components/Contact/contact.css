@@ -1,0 +1,18 @@
+.neon-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .neon-button:hover {
+    box-shadow: 0 0 10px #03f484,
+                0 0 20px #03f484,
+                0 0 30px #03f484,
+                0 0 40px #03f484;
+  }
