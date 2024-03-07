@@ -2,8 +2,9 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import './button.css'
 import './style.css'
-import { FaFacebookF, FaTwitter,  FaInstagramSquare  } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 import img from '../../assets/razib.jpg'
+import { styles } from "./styles";
 
 const Banner = () => {
 
@@ -18,12 +19,15 @@ const Banner = () => {
                     hidden: { opacity: 0, x: -200 },
                     visible: { opacity: 1, x: 0 }
                 }}>
-                <p className='text-6xl'>
-                    Razib{' '}
-                    <span className='text-yellow-500'>
-                        Das
-                    </span>
-                </p>
+                <div  className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+                    <p className='text-6xl'>
+                        Razib{' '}
+                        <span className='text-yellow-500'>
+                            Das
+                        </span>
+                    </p>
+                </div>
+
                 <div className='mt-8 '>
                     <p>Passionate junior web developer dedicated to<br></br> crafting responsive and user-friendly websites.<br></br> Eager to learn and contribute to innovative projects.</p>
                 </div>
@@ -39,7 +43,7 @@ const Banner = () => {
                 <div className='mt-8 flex gap-4'>
                     <FaFacebookF className='text-2xl' />
                     <FaTwitter className='text-2xl' />
-                    <FaInstagramSquare className='text-2xl'/>
+                    <FaInstagramSquare className='text-2xl' />
                 </div>
 
             </motion.div>
@@ -56,3 +60,4 @@ const Banner = () => {
 };
 
 export default Banner;
+

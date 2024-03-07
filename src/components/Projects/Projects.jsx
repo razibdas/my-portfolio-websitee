@@ -12,7 +12,7 @@ const Projects = () => {
                     <figure><img src={image} alt="Shoes" /></figure>
                     <div className="card-body">
                         <div className="card-actions justify-center mt-8">
-                            <a href='https://fashion-design-project.web.app/'> <button className="btn bttn">Livesite</button></a>
+                            <a href='https://fashion-design-project.web.app/'> <button className="btn ">Livesite</button></a>
                            
                         </div>
                     </div>
@@ -22,7 +22,7 @@ const Projects = () => {
                     <div className="card-body">
                         <div className="card-actions justify-center mt-8">
                             <a href='https://teclink-technology.web.app/'>
-                                <button className="btn bttn">Livesite</button>
+                                <button className="btn">Livesite</button>
                             </a>
                         </div>
                     </div>
@@ -31,7 +31,16 @@ const Projects = () => {
                     <figure><img src={image4} alt="Shoes" /></figure>
                     <div className="card-body">
                         <div className="card-actions justify-center">
-                            <a href='https://event-management-auth-7dba0.web.app/'><button className="btn bttn">Livesite</button></a>
+                            <a href='https://event-management-auth-7dba0.web.app/'><button className="btn ">Livesite</button></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="card card-compact  bg-base-100 shadow-xl">
+                    <figure><img src="https://i.ibb.co/61zn7b2/image.png" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <div className="card-actions justify-center">
+                            <a href='https://innavated.web.app/?fbclid=IwAR1RXOAwiOPtw2k3jEjxs0oqjqsQ1H0D1Pv62CWHZW6rKg6wblXvfmtBk2Q'><button className="btn ">Livesite</button></a>
                             
                         </div>
                     </div>

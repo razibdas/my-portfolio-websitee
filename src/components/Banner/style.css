@@ -1,4 +1,4 @@
-.neon-button {
+/* .neon-button {
     position: relative;
     padding: 10px 20px;
     font-size: 16px;
@@ -15,4 +15,27 @@
                 0 0 20px #03f484,
                 0 0 30px #03f484,
                 0 0 40px #03f484;
+  } */
+
+  /* styles.css */
+  @keyframes changeColor {
+    0% {
+      background-image: linear-gradient(to bottom, #915EFF, #FFFFFF);
+    }
+    50% {
+      background-image: linear-gradient(to bottom, #FF6347, #FFFFFF); /* Change to the color you want at 50% */
+    }
+    100% {
+      background-image: linear-gradient(to bottom, #915EFF, #FFFFFF);
+    }
   }
+  
+  .gradient-animation {
+    animation: changeColor 5s linear infinite;
+  }
+
+  .animated-circle {
+    animation: colorChange 5s linear infinite;
+  }
+  
+  
