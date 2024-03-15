@@ -18,16 +18,16 @@ const Main = () => {
     return (
 
         <div>
-            <Particles
+            {/* <Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-                    // background: {
-                    //     color: {
-                    //         value: "#413439",
-                    //     },
-                    // },
+                    background: {
+                        color: {
+                            value: "#413439",
+                        },
+                    },
                     fpsLimit: 120,
                     interactivity: {
                         events: {
@@ -90,8 +90,8 @@ const Main = () => {
                         },
                     },
                     detectRetina: true,
-                }}
-            />
+                }} */}
+            {/* /> */}
             
             <Outlet></Outlet>
         </div>

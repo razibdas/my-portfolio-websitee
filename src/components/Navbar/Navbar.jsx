@@ -3,12 +3,13 @@ import {Link} from "react-scroll"
 const Navbar = () => {
 
     const navLinks = <>
-        <li><Link to="/" spy={true} smooth={true} offset={-50} duration={500} >Home</Link></li>
-        <li><Link to="skills" spy={true} smooth={true} offset={-100} duration={500} >Skills</Link></li>
-        <li><Link to="projects" spy={true} smooth={true} offset={-100} duration={500} >Projects</Link></li>
-        <li><Link to="contacts" spy={true} smooth={true} offset={-100} duration={500} >Contacts</Link></li>
-        <li><Link to="education" spy={true} smooth={true} offset={-100} duration={500} >Education</Link></li>
-        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} >Experience</Link></li>
+        <li><Link to="/" spy={true} smooth={true} offset={-50} duration={500} ec15><i className="uil uil-estate"></i>Home</Link></li>
+        <li><Link to="skills" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-file-alt"></i>Skills</Link></li>
+        <li><Link to="projects" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-chart-bar"></i>Projects</Link></li>
+        <li><Link to="contacts" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-message"></i>Contacts</Link></li>
+        <li><Link to="education" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-award-alt"></i>Education</Link></li>
+        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-user-circle"></i>Experience</Link></li>
+        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-user"></i>About</Link></li>
 
     </>
 
@@ -28,7 +29,7 @@ const Navbar = () => {
                         className="btn btn-ghost normal-case text-xl"
                         style={{
                             fontSize: '24px',
-                            color: 'white',
+                            color: '',
                             fontWeight: 'bold',
                             fontStyle: 'italic', 
                         }}
