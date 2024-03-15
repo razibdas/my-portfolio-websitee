@@ -1,24 +1,21 @@
 
 import photo from '../../assets/razib.jpg'
-
+import './style.css'
 const Banner = () => {
 
     return (
-        <div>
-            <div>
-                <i className="uil uil-instagram"></i>
-                <br />
-                <i className="uil uil-500px"></i>
-                <br />
+        <div className='lg:flex space-x-60 justify-center items-center mt-24'>
+            <div className='text-2xl flex flex-col items-center'>
+                <i className="uil uil-instagram mb-4"></i>
+                <i className="uil uil-500px mb-4"></i>
                 <i className="uil uil-github-alt"></i>
             </div>
+
             <div>
-                <h1>Razib Das</h1>
-                <div className="flex">
-                    <p className="flex items-center">Visual Designer<svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 463.719 463.719">
-                        <g>
-                            <path d="M419.702,271.402c-5.257-5.257-11.401-9.096-17.956-11.518c13.36-19.463,11.399-46.354-5.883-63.638
+                <h1 className='text-4xl flex items-center'>Razib Das<svg fill="#000000" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 463.719 463.719">
+                    <g>
+                        <path d="M419.702,271.402c-5.257-5.257-11.401-9.096-17.956-11.518c13.36-19.463,11.399-46.354-5.883-63.638
 		c-5.341-5.341-11.679-9.323-18.593-11.776c11.575-19.216,9.091-44.596-7.469-61.157c-5.027-5.027-10.87-8.747-17.103-11.181
 		l26.801-26.801c19.495-19.495,19.495-51.216,0-70.71c-19.496-19.496-51.216-19.495-70.71,0l-86.405,86.406
 		c-2.481-6.326-6.252-12.135-11.201-17.084c-19.495-19.496-51.216-19.496-70.71,0l-72.706,72.706
@@ -32,12 +29,18 @@ const Banner = () => {
 		l-23.431,23.43c-0.005,0.005-25.663,25.663-25.663,25.663l21.213,21.213l25.658-25.658c3.778-3.777,8.8-5.858,14.142-5.858
 		s10.365,2.081,14.142,5.858c7.798,7.798,7.798,20.487,0,28.285l-25.658,25.657l21.213,21.213c3.778-3.777,8.8-5.858,14.142-5.858
 		c5.342,0,10.365,2.081,14.143,5.858C406.287,300.413,406.287,313.101,398.489,320.9z"/>
-                        </g>
-                    </svg></p>
+                    </g>
+                </svg></h1>
+                <div className="flex">
+                    <p className="flex text-xl items-center mt-4">______Frontend Devloper</p>
+
                 </div>
-                <button className="btn bg-black text-white">Say Hello<i className="uil uil-location-arrow"></i></button>
+                <p className='mt-4'>
+                    I'm Razib, a passionate Front-End <br /> Developer with a love for creating <br /> responsive and user-friendly web experiences.
+                </p>
+                <button className="btn bg-black mt-8 text-white">Say Hello<i className="uil uil-location-arrow"></i></button>
             </div>
-            <img src={photo} alt="" />
+            <img className='profile__animate w-[200px]' src={photo} alt="" />
         </div>
     );
 };

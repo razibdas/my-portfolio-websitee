@@ -21,8 +21,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="">
-        <h2 className="text-4xl text-center mt-24"  id='contacts'>Contact Me</h2>
+      <div id='contacts'>
+        <h2 className="text-4xl text-center mt-24"  >Contact Me</h2>
         <div className="hero-content mx-auto flex-col lg:flex-row-reverse">
           <div className="card w-full max-w-xl mx-auto">
             <form

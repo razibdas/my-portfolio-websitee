@@ -1,41 +1,15 @@
-/* .neon-button {
-    position: relative;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #111;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  
-  .neon-button:hover {
-    box-shadow: 0 0 10px #03f484,
-                0 0 20px #03f484,
-                0 0 30px #03f484,
-                0 0 40px #03f484;
-  } */
+.profile__animate {
+  animation: profile__animate 2s infinite;
+}
 
-  /* styles.css */
-  @keyframes changeColor {
-    0% {
-      background-image: linear-gradient(to bottom, #915EFF, #FFFFFF);
-    }
-    50% {
-      background-image: linear-gradient(to bottom, #FF6347, #FFFFFF); /* Change to the color you want at 50% */
-    }
-    100% {
-      background-image: linear-gradient(to bottom, #915EFF, #FFFFFF);
-    }
+@keyframes profile__animate {
+  0% {
+    border-radius: 50%;
   }
-  
-  .gradient-animation {
-    animation: changeColor 5s linear infinite;
+  50% {
+    border-radius: 25%;
   }
-
-  .animated-circle {
-    animation: colorChange 5s linear infinite;
+  100% {
+    border-radius: 50%;
   }
-  
-  
+}

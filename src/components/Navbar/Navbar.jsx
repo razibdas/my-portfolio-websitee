@@ -9,7 +9,7 @@ const Navbar = () => {
         <li><Link to="contacts" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-message"></i>Contacts</Link></li>
         <li><Link to="education" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-award-alt"></i>Education</Link></li>
         <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-user-circle"></i>Experience</Link></li>
-        <li><Link to="experience" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-user"></i>About</Link></li>
+        <li><Link to="about" spy={true} smooth={true} offset={-100} duration={500} ><i className="uil uil-user"></i>About</Link></li>
 
     </>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <div className="navbar-end"id='contacts' >
+                <div className="navbar-end" >
                     <a className="btn" >Contacts</a>
                 </div>
             </div>
